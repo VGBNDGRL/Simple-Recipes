@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E87ED8E2A632256001242BF /* DessertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87ED8D2A632256001242BF /* DessertRow.swift */; };
 		9E93407E2A631A3A00D73279 /* Simple_RecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93407D2A631A3A00D73279 /* Simple_RecipesApp.swift */; };
 		9E9340802A631A3A00D73279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93407F2A631A3A00D73279 /* ContentView.swift */; };
 		9E9340822A631A3B00D73279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9340812A631A3B00D73279 /* Assets.xcassets */; };
 		9E9340852A631A3B00D73279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9340842A631A3B00D73279 /* Preview Assets.xcassets */; };
+		9E93408C2A631D1400D73279 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93408B2A631D1400D73279 /* Dessert.swift */; };
+		9E93408E2A631E3900D73279 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93408D2A631E3900D73279 /* ModelData.swift */; };
+		9E9340902A631E8C00D73279 /* dessertsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E93408F2A631E8C00D73279 /* dessertsData.json */; };
+		9EDC9A832A6329F10060F232 /* DessertList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC9A822A6329F10060F232 /* DessertList.swift */; };
+		9EDC9A852A632B220060F232 /* DessertDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC9A842A632B220060F232 /* DessertDetail.swift */; };
+		9EDC9A882A632BAF0060F232 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC9A872A632BAF0060F232 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E87ED8D2A632256001242BF /* DessertRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRow.swift; sourceTree = "<group>"; };
 		9E93407A2A631A3A00D73279 /* Simple Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E93407D2A631A3A00D73279 /* Simple_RecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_RecipesApp.swift; sourceTree = "<group>"; };
 		9E93407F2A631A3A00D73279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E9340812A631A3B00D73279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E9340842A631A3B00D73279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E93408B2A631D1400D73279 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		9E93408D2A631E3900D73279 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		9E93408F2A631E8C00D73279 /* dessertsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dessertsData.json; sourceTree = "<group>"; };
+		9EDC9A822A6329F10060F232 /* DessertList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertList.swift; sourceTree = "<group>"; };
+		9EDC9A842A632B220060F232 /* DessertDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetail.swift; sourceTree = "<group>"; };
+		9EDC9A872A632BAF0060F232 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E87ED8B2A63220E001242BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E93408D2A631E3900D73279 /* ModelData.swift */,
+				9E93408B2A631D1400D73279 /* Dessert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E87ED8C2A63221E001242BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E87ED8D2A632256001242BF /* DessertRow.swift */,
+				9EDC9A822A6329F10060F232 /* DessertList.swift */,
+				9EDC9A842A632B220060F232 /* DessertDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9E9340712A631A3A00D73279 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +84,10 @@
 		9E93407C2A631A3A00D73279 /* Simple Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				9EDC9A862A632BA20060F232 /* Helpers */,
+				9E87ED8C2A63221E001242BF /* Views */,
+				9E87ED8B2A63220E001242BF /* Model */,
+				9E93408F2A631E8C00D73279 /* dessertsData.json */,
 				9E93407D2A631A3A00D73279 /* Simple_RecipesApp.swift */,
 				9E93407F2A631A3A00D73279 /* ContentView.swift */,
 				9E9340812A631A3B00D73279 /* Assets.xcassets */,
@@ -65,6 +102,14 @@
 				9E9340842A631A3B00D73279 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EDC9A862A632BA20060F232 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9EDC9A872A632BAF0060F232 /* CircleImage.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9340852A631A3B00D73279 /* Preview Assets.xcassets in Resources */,
+				9E9340902A631E8C00D73279 /* dessertsData.json in Resources */,
 				9E9340822A631A3B00D73279 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +184,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9340802A631A3A00D73279 /* ContentView.swift in Sources */,
+				9EDC9A882A632BAF0060F232 /* CircleImage.swift in Sources */,
+				9E93408E2A631E3900D73279 /* ModelData.swift in Sources */,
+				9E93408C2A631D1400D73279 /* Dessert.swift in Sources */,
 				9E93407E2A631A3A00D73279 /* Simple_RecipesApp.swift in Sources */,
+				9EDC9A832A6329F10060F232 /* DessertList.swift in Sources */,
+				9EDC9A852A632B220060F232 /* DessertDetail.swift in Sources */,
+				9E87ED8E2A632256001242BF /* DessertRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

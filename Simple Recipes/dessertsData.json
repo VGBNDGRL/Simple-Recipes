@@ -1,0 +1,12 @@
+[
+    {
+        "strMeal": "Apam balik",
+        "imageName": "exampleone",
+        "id": 0
+    },
+    {
+        "strMeal": "Apple & Blackberry Crumble",
+        "imageName": "exampletwo",
+        "id": 1
+    }
+]
